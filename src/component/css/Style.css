@@ -1,0 +1,58 @@
+/* .modalclose{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 3.5%;
+    margin-left : 90% ;
+    border-radius: 25%;
+    position: relative;
+    z-index: 1;
+}
+.modalTitle{
+    position: relative;
+    margin-top: -12%;
+    padding: 5%;
+    background-color: aqua;
+}
+.modalBody{
+  background-color: red;  
+    display: grid;
+  }
+
+.modalBody form label{
+  background-color: red; 
+  display: grid;
+  grid-template-columns: auto auto;
+} */
+/* .custom-Modal{
+  width: 897px;
+  height: 802px;
+} */
+/* .modalBody{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+.constainer{
+/* display:grid;
+grid-template-columns: auto auto; */
+/* display: flex;
+flex-direction:column-reverse;  /*it will display it as 4 
+                                                         3
+                                                          2
+                                                          1*/
+display: flex;
+flex-direction: column;
+text-align: center;
+/* width:fit-content;  this will only take the size of the content */ 
+
+}
+@media (min-width : 1001px){
+  .constainer{
+    width:  min(1000px,75rem);
+    margin: 0 auto; /*it centers the elements or div*/
+    /* grid-auto-flow: row; */
+    gap : 5em /*it provides the gap between the divs*/
+  }
+}
